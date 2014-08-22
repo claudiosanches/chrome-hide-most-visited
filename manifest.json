@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Hide Most Visited in New Tab page",
+  "version": "0.0.0.1",
+  "minimum_chrome_version": "36",
+  "content_scripts": [
+    {
+      "css": [ "hide-most-visited.css" ],
+      "matches": [ "*://*/*" ]
+    }
+  ]
+}
