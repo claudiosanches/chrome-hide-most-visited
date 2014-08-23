@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Hide Most Visited in New Tab page",
-  "version": "0.0.0.1",
+  "version": "1.0.0",
+  "description": "Hide the Most Visited pages in Chrome's New Tab page.",
   "minimum_chrome_version": "36",
   "content_scripts": [
     {
