@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "css": [ "hide-most-visited.css" ],
-      "matches": [ "*://*/*" ]
+      "matches": [ "*://*/*_/chrome/newtab*" ]
     }
   ]
 }

@@ -1,3 +1,3 @@
-html[manifest*="chrome/newtab"] div#most-visited {
-	display: none;
+div#most-visited.mv-hide {
+	display: none !important;
 }
